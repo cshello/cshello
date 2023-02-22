@@ -2,19 +2,21 @@
 author: Bangguo Chen
 title: CUDA
 description: CUDA
-slug: slug-CUDA
 date: 2022-01-15
 categories:
     - Basics
-tags: 
     - HPC
+tags: 
     - CUDA
+
 ---
 
 
 
 
 # CUDA  
+
+## [CUDA安装](../../../../Basics/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85CUDA/ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85CUDA.md)
 
 ## nvcc用法
 ```sh
