@@ -1,3 +1,4 @@
+---
 author: Bangguo Chen
 title: 使用Docker安装Jupyter及一些插件
 description: "记录服务的安装过程，包括docker配置，插件安装，服务启动等"
