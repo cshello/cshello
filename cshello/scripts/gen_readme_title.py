@@ -28,12 +28,14 @@ def gen_title(path, sup_suffix=(".txt", ".md", ".ipynb")):
     ```
     """
     
-    path = os.path.abspath(path)
-    paths = glob.glob(os.path.join(path, "**"), recursive=True)
-    
+    paths = list() 
+    for p in [path] if isinstance(path, str) else path:
+        p = os.path.abspath(p)
+        paths += glob.glob(os.path.join(p, "**"), recursive=True)
+
     paths = sorted(paths)
 
-    s_remove = os.path.dirname(path)
+    s_remove = os.getcwd()
     res = list()
     for i, p in enumerate(paths):
         p = p.removeprefix(s_remove).removeprefix(os.sep).removesuffix(os.sep)
@@ -52,12 +54,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Generate hyperlinks to the file tree."
             )
-    parser.add_argument(
-        "-path", type=str, default="Basics"
-            )
 
     args = parser.parse_args()
-    path =  args.path
+    path =  [
+        "编程开发套件",
+        "软件安装",
+        "DevOps",
+    ]
     # print(args, path)
     res = gen_title(path)
     print(*res, sep="\n")
