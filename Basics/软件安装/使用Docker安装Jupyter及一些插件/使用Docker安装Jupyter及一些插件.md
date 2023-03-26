@@ -10,6 +10,7 @@ categories:
 tags: 
     - Jupyter
     - Dockerfile
+
 ---
 
 - [使用Docker安装Jupyter及一些插件](#使用docker安装jupyter及一些插件)
@@ -223,4 +224,9 @@ lab -y --allow-root --no-browser \
         ```
     - `--ServerApp.allow_origin`: 设置允许源
 
+
+- jupyter 其他可选参数参考
+|参数-参考默认值|解释|
+|:---|:---|
+|`--ServerApp.terminado_settings="shell_command=['/bin/bash']"`|设置terminal终端为bash|
 
