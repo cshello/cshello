@@ -226,6 +226,7 @@ lab -y --allow-root --no-browser \
 
 
 - jupyter 其他可选参数参考
+
 |参数-参考默认值|解释|
 |:---|:---|
 |`--ServerApp.terminado_settings="shell_command=['/bin/bash']"`|设置terminal终端为bash|
