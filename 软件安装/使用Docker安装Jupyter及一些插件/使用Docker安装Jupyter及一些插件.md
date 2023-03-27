@@ -139,6 +139,11 @@ RUN apt-get install -y build-essential manpages-dev cmake \
 && apt-get install -y wget vim
 
 
+# can be to use opencv
+RUN apt-get -y install lib32z1 libglib2.0-dev \
+    libsm6 libxrender1 libxext6 libice6 libxt6 libfontconfig1 libcups2 libgl1-mesa-glx
+
+
 # Install Miniconda3
 RUN wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh \
 && bash miniconda.sh -b -p /miniconda \
@@ -176,13 +181,14 @@ docker build -t cshello .
 
 
 # echo 执行的命令demo
-echo "
+cat << EOF
 docker run -itd --name cshello --restart always -p 8888:8888 -v /root/cshello:/root/cshello \
 cshello \
 -y --allow-root --no-browser \
 --ip='0.0.0.0' --notebook-dir=/root/cshello \
+--ServerApp.terminado_settings="shell_command=['/bin/bash']" \
 --ServerApp.password 'sha1:25981ad2a4fd:87fdfa0a8aeb18fc87130b7991c132c199ff926b' # 密码123
-"
+EOF
 
 ```
 
