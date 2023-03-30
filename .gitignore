@@ -134,6 +134,7 @@ Untitled*.ipynb
 .idea/*
 gTest/*
 build/*
+build-*
 
 # cpp 
 cmake-build*
