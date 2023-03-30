@@ -22,9 +22,20 @@
 
 ## Tree
 ---
+
  - [DevOps](DevOps)
+   - [Git](DevOps/Git)
+     - [Git教程.md](DevOps/Git/Git教程.md)
    - [Jupyter](DevOps/Jupyter)
      - [Jupyter中使用IPython魔术命令.ipynb](DevOps/Jupyter/Jupyter中使用IPython魔术命令.ipynb)
+ - [大数据](大数据)
+   - [Kafka](大数据/Kafka)
+     - [Kafka.md](大数据/Kafka/Kafka.md)
+     - [LAB01](大数据/Kafka/LAB01)
+   - [MySQL](大数据/MySQL)
+     - [MySQL.md](大数据/MySQL/MySQL.md)
+   - [Thrift](大数据/Thrift)
+     - [Thrift.md](大数据/Thrift/Thrift.md)
  - [编程开发套件](编程开发套件)
    - [HPC](编程开发套件/HPC)
      - [CUDA](编程开发套件/HPC/CUDA)
@@ -32,10 +43,11 @@
        - [cuda-base](编程开发套件/HPC/CUDA/cuda-base)
          - [cuda-base.ipynb](编程开发套件/HPC/CUDA/cuda-base/cuda-base.ipynb)
  - [软件安装](软件安装)
+   - [Mac软件安装.md](软件安装/Mac软件安装.md)
    - [Ubuntu下安装CUDA](软件安装/Ubuntu下安装CUDA)
-     - [screenshot-20230218-152639.png](软件安装/Ubuntu下安装CUDA/screenshot-20230218-152639.png)
      - [ubuntu下安装CUDA.md](软件安装/Ubuntu下安装CUDA/ubuntu下安装CUDA.md)
    - [使用Docker安装Jupyter及一些插件](软件安装/使用Docker安装Jupyter及一些插件)
      - [使用Docker安装Jupyter及一些插件.md](软件安装/使用Docker安装Jupyter及一些插件/使用Docker安装Jupyter及一些插件.md)
+
 ---
             

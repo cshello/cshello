@@ -39,10 +39,18 @@ def gen_title(path, sup_suffix=(".txt", ".md", ".ipynb")):
     res = list()
     for i, p in enumerate(paths):
         p = p.removeprefix(s_remove).removeprefix(os.sep).removesuffix(os.sep)
+        
+        if "/build-" in p:
+            continue 
+
+
         lis = p.split(os.sep)
         
         name_ = f"{lis[-1]}"
         url_ = os.sep.join(lis)
+        
+        if "." in name_ and os.path.splitext(name_)[1] not in sup_suffix:
+            continue
         s_white = "  " * (len(lis) - 1 )
         res.append(f"{s_white} - [{name_}]({url_})")
     # print(*res, sep="\n")
@@ -60,6 +68,7 @@ if __name__ == "__main__":
         "编程开发套件",
         "软件安装",
         "DevOps",
+        "大数据",
     ]
     # print(args, path)
     res = gen_title(path)
