@@ -33,21 +33,25 @@ EOF
 
 bazel build //:main
 
+output=`bazel run //:main`
+script_str=`cat ../build.sh`
+#exit
+# warpmd sh txt
+warpmd() {
+echo "\`\`\`$1
+$2
+\`\`\`  
+"
+}
+
 cat << EOF > ../L01-HelloWorld.md
 ## SCRIPT
-\`\`\`sh
-`cat ../build.sh`
-\`\`\`
-
+`warpmd sh "${script_str}"`
 
 ## OUTPUT
-\`\`\`sh
-`bazel run //:main`
-\`\`\`
+`warpmd sh "$(bazel run //:main)"`
+
 
 ## TREE
-\`\`\`sh
-`bazel clean && tree ../`
-\`\`\`
-
-
+`warpmd sh "$(bazel clean && tree ../)"`
+EOF
