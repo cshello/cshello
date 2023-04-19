@@ -69,6 +69,7 @@ if __name__ == "__main__":
         "软件安装",
         "DevOps",
         "大数据",
+	"Others",
     ]
     # print(args, path)
     res = gen_title(path)
