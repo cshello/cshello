@@ -1,0 +1,125 @@
+软件安装:
+    - 安装CUDA:
+    - 使用Docker安装Jupyter及一些插件:
+
+编程语言:
+    - CPP:
+    - Python:
+    - Golang:
+    - Java:
+
+DevOps:
+    - Linux基础:
+	- Bash:
+    - 编译工具:
+        - gcc:
+        - g++:
+        - pkg-config:
+        - nvcc:
+        - make:
+        - cmake:
+        - bazel:
+    - Gitlab:
+    - Git:
+    - Jupyter:
+    - Docker:
+        - CICD:
+    - Web服务器:
+        - Nginx:
+    - 数据库:
+        - Kafka:
+        - MySQL:
+
+编程开发套件:
+    - HPC:
+        - CUDA:
+        - OpenCL:
+        - OpenGL:
+        - BANG:
+    - 推理框架:
+        - TensorRT:
+        - onnxruntime:
+        - CNRT:
+        - OpenVINO:
+        - NCNN:
+        - MNN:
+        - TNN:
+        - Hisilicon:
+        - RKNN:
+    - 通信协议:
+        - OpenNI:
+        - UVC:
+        - Thrift:
+        - Protobuf:
+    - CV:
+        - NumPy:
+        - pandas:
+        - Matplotlib:
+        - scikit-learn:
+        - SciPy:
+        - OpenCV:
+        - FFmpeg:
+        - PyTorch:
+        - TensorFlow:
+
+
+理论工程基础:
+    - 线性代数:
+    - 微积分:
+    - 数学优化:
+    - 概率论:
+    - 信息论:
+    - 控制论:
+    - 系统论:
+    - 数据挖掘:
+    - 机器学习:
+    - 深度学习:
+    - 模式识别:
+    - 强化学习:
+
+算法与数据结构:
+
+计算机科学与应用:
+    - 数据库:
+    - 编译原理:
+    - 计算机组成原理-体系结构:
+    - 操作系统:
+    - 计算机网络:
+    - 分布式系统:
+    - 软件工程-设计模式:
+
+
+Projects:
+    - Others:
+        - 字体数字分类:
+        - 车牌识别:
+        - 车道线检测:
+        - 二维码识别:
+        - 显著性检测:
+        - logo检测:
+        - 价签识别:
+        - Ai画画: # words to image
+        - 语音合成: # words to audio
+        - 语音定制: # audio to specific person's voice
+        - 人脸表情合成: # Make the generated expressions conform to normal human speech
+    - 文字识别:
+    - 图像质量评价:
+    - 缺陷检测:
+    - 商品识别:
+        - 商品分类:
+        - 商品检测:
+        - 商品对比:
+    - 人脸识别系统:
+        - 人脸识别:
+        - 人脸生成:
+        - 人脸美化:
+Others:
+    - 常用命令:
+    - 常用链接:
+    - AI相关公司:
+    - AI难点及解决方案:
+    - 优秀网站和个人博客:
+
+
+
+
