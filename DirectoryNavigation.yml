@@ -51,6 +51,7 @@ DevOps:
         - UVC:
         - Thrift:
         - Protobuf:
+        - CyberRT:
     - CV:
         - NumPy:
         - pandas:
@@ -61,7 +62,8 @@ DevOps:
         - FFmpeg:
         - PyTorch:
         - TensorFlow:
-
+    - Autopilot:
+        - ApolloAuto:
 
 理论工程基础:
     - 线性代数:
