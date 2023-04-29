@@ -1,6 +1,9 @@
-软件安装:
+软件安装与使用:
     - 安装CUDA:
     - 使用Docker安装Jupyter及一些插件:
+    - CLion:
+    - PyCharm:
+    - VSCode:
 
 编程语言:
     - CPP:
@@ -64,6 +67,8 @@ DevOps:
         - TensorFlow:
     - Autopilot:
         - ApolloAuto:
+    - QT:
+    
 
 理论工程基础:
     - 线性代数:
