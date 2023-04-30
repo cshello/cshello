@@ -13,7 +13,7 @@ cat << EOF > "${MD_BASENAME}.md"
 # ${MD_BASENAME}
 
 ## 案例1
-$(wrapercode sh "$(cat build-demo-cc.sh)")
+$(wrapercode sh "$(cat build_demo-cc.sh)")
 
 EOF
 

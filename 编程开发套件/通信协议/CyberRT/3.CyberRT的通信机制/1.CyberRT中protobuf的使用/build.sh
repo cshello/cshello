@@ -15,7 +15,7 @@ cat << EOF > ${MD_BASENAME}.md
 4. 执行。
 
 ## 案例1
-$(wrapercode sh "$(cat build-person-proto-in-cyber.sh)")
+$(wrapercode sh "$(cat build_person-proto-in-cyber.sh)")
 
 
 EOF

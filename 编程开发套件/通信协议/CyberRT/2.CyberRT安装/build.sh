@@ -71,10 +71,10 @@ export GLOG_alsologtostderr=1
 ## 使用CyberRT创建并打印HelloWorld
 在容器apollo目录直接执行如下C++或Py脚本。
 ### 编写C++输出HelloWorld
-$(wrapercode sh "$(cat build-cpp-HelloWorld.sh)")
+$(wrapercode sh "$(cat build_cpp-HelloWorld.sh)")
 
 ### 编写Py输出HelloWorld
-$(wrapercode sh "$(cat build-py-HelloWorld.sh)")
+$(wrapercode sh "$(cat build_py-HelloWorld.sh)")
 EOF
 
 
