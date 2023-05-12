@@ -1,25 +1,16 @@
 
 
-# TODO 
-
-## DevOps
-
-### gittutor实战
-- 完成了100%
-
-### Git用法练习
+# 2023
+## 202305
 
 
-## 大数据
-
-### MySQL用法
-
-
-### Kafka用法
+### 2023-19-0507-0513
+- [ ] 完成libtorch的demo用法
+可参考http://zhaoxuhui.top/blog/2021/04/13/libtorch-installation-and-use.html
+```txt
 
 
-
-
+```
 
 
 
