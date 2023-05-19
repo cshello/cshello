@@ -1,6 +1,18 @@
 
+# TODOLIST
+- [ ] 提高vim tmux及其插件的使用熟练度
+可参考  
+https://github.com/junegunn/vim-plug  
+https://draculatheme.com/tmux  
+bilibili肥清哥哥  
+
+
+
 
 # 2023
+
+
+
 ## 202305
 
 

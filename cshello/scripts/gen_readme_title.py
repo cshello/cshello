@@ -70,6 +70,7 @@ if __name__ == "__main__":
         "DevOps",
         "大数据",
 	"Others",
+	"ProgramingLanguages",
     ]
     # print(args, path)
     res = gen_title(path)
