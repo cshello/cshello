@@ -1,4 +1,5 @@
 
+
 # cshello  
 ## 该仓库是做什么的？  
 用于记录，管理，分享计算机相关方向的知识和运用  
@@ -25,9 +26,8 @@
 3. 在生活中怎么运用，有什么特殊的案例
 
 
-
 ## Tree
----  
+---
 
  - [DevOps](DevOps)
          - [1.Nginx用法.md](DevOps/6.Web服务器/1.Nginx/1.Nginx用法/1.Nginx用法.md)
@@ -84,6 +84,8 @@
      - [ThirdParty](ProgramingLanguages/CPP/ThirdParty)
        - [benchmark](ProgramingLanguages/CPP/ThirdParty/benchmark)
          - [benchmark.md](ProgramingLanguages/CPP/ThirdParty/benchmark/benchmark.md)
+     - [Tracks](ProgramingLanguages/CPP/Tracks)
+         - [1.探索不同类型组成的结构体在内存中的分布.md](ProgramingLanguages/CPP/Tracks/1.探索不同类型组成的结构体在内存中的分布/1.探索不同类型组成的结构体在内存中的分布.md)
    - [Python](ProgramingLanguages/Python)
      - [Associations](ProgramingLanguages/Python/Associations)
      - [Basics](ProgramingLanguages/Python/Basics)
@@ -126,6 +128,7 @@
      - [ubuntu下安装CUDA.md](软件安装/Ubuntu下安装CUDA/ubuntu下安装CUDA.md)
    - [使用Docker安装Jupyter及一些插件](软件安装/使用Docker安装Jupyter及一些插件)
      - [untitled.txt](软件安装/使用Docker安装Jupyter及一些插件/untitled.txt)
-     - [使用Docker安装Jupyter及一些插件.md](软件安装/使用Docker安装Jupyter及一些插件/使用Docker安装Jupyter及一些插件.md)
+     - [使用Docker安装Jupyter及一些插件.md](软件安装/使用Docker安装Jupyter及一些插件/使用Docker安装Jupyter及一些插件.md) 
 
 ---
+
