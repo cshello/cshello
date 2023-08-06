@@ -16,7 +16,7 @@ cat << EOF > ${md_basename}.md
 
 ## 搭建一个RTSP服务  
 在 [下载网址](https://github.com/bluenviron/mediamtx/releases) 下载指定mediamtx，并运行
-$(wrapercode sh "")
+$(wrapercode txt "$(cat mediamtx.log)")
 
 
 ## 安装FFmpeg
