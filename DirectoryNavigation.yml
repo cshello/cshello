@@ -13,6 +13,7 @@
 
 DevOps:
     - Linux基础:
+    - freeRTOS基础:
 	- Bash:
     - 编译工具:
         - gcc:

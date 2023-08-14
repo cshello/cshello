@@ -20,6 +20,12 @@ bilibili肥清哥哥
 
 # 2023
 
+## 202308
+### 2023-32-0806-0812
+- [ ] [freeRTOS学习实践](https://www.freertos.org/Documentation/FreeRTOS_Reference_Manual_V10.0.0.pdf)
+
+
+
 ## 202306
 
 ### 2023-25-0618-0624
